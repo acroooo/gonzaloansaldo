@@ -1,5 +1,7 @@
 .title {
     text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 35px;
 }
 
 .menu {
@@ -21,17 +23,41 @@
     color: black;
 }
 
+.social {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social li {
+    display: inline;
+    margin: 10px;
+}
+
+.social ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+.in {
+    margin-bottom: 1px;
+}
+
 
 .first {
     width: 50%;
     float: left;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .second {
     width: 50%;
     float: right;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .images img {
@@ -39,4 +65,21 @@
     margin: auto;
     max-width: 85%;
     margin-top: 50px;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    max-width: 85%;
+    margin-top: 50px;  
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
 }
