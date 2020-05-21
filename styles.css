@@ -1,0 +1,42 @@
+.title {
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 15px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.first {
+    width: 50%;
+    float: left;
+    padding-bottom: 150px;
+}
+
+.second {
+    width: 50%;
+    float: right;
+    padding-bottom: 150px;
+}
+
+.images img {
+    display: block;
+    margin: auto;
+    max-width: 85%;
+    margin-top: 50px;
+}
