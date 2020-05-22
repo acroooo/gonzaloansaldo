@@ -1,12 +1,12 @@
 .title {
     text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Poiret One', cursive;
     font-size: 35px;
 }
 
 .menu {
     position: absolute;
-    top: 15px;
+    top: 17px;
 }
 
 .menu ul {
@@ -14,19 +14,33 @@
 }
 
 .menu li {
+    font-family: 'Squada One', cursive;
+    font-size: 21px;
     display: inline;
     margin: 15px;
 }
 
+.menu li a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.current {
+    color: black;
+}
+
+.no-current {
+    color: grey;
+}
+
 .menu li a {
     text-decoration: none;
-    color: black;
 }
 
 .social {
     position: absolute;
-    top: 15px;
-    right: 30px;
+    top: 18px;
+    right: 50px;
 }
 
 .social ul {
@@ -39,8 +53,8 @@
 }
 
 .social ul li img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 }
 
 .in {
@@ -82,4 +96,73 @@ footer {
 
 .footer {
     text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+}
+
+/* CONTACT PAGE */
+
+.contact-title {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.social-media {
+    margin-top: 80px;
+    text-align: center;
+    color: #464646;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.footer-contact {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+
+.social-footer {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+}
+
+.social-footer li {
+    display: inline;
+    margin: 5px;
+}
+
+.social-footer li img {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .menu {
+        position: relative;
+        margin-top: -15px;
+    }
+
+    .portfolio {
+        position: absolute;
+        left: 60px;
+    }
+
+    .contact {
+        position: absolute;
+        right: 60px
+    }
+
+    .menu li {
+        font-family: 'Squada One', cursive;
+        font-size: 21px;
+        display: inline;
+    }
+
 }
