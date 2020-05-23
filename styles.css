@@ -81,6 +81,11 @@
     margin-top: 50px;
 }
 
+.images img:hover {
+    opacity: 0.95;
+    transition: 1s;
+}
+
 .video {
     display: block;
     margin: auto;
@@ -160,6 +165,21 @@ footer {
     height: 20px;
 }
 
+/* PORTFOLIO IMAGES */
+
+.portfolio-image-container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.portfolio-image {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
+/* RESPONSIVE */
 
 @media only screen and (max-width: 700px) {
 
