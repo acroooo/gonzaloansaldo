@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', arial;
     font-size: 35px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .menu li {
-    font-family: 'Squada One', cursive;
+    font-family: 'Bebas Neue', arial;
     font-size: 21px;
     display: inline;
     margin: 15px;
@@ -101,7 +101,7 @@ footer {
 
 .footer {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', arial;
     font-size: 15px;
 }
 
@@ -115,7 +115,7 @@ footer {
 
 .contact-title {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', arial;
 }
 
 .social-media {
@@ -199,7 +199,7 @@ footer {
     }
 
     .menu li {
-        font-family: 'Squada One', cursive;
+        font-family: 'Bebas Neue', arial;
         font-size: 21px;
         display: inline;
     }
@@ -221,7 +221,7 @@ footer {
 
     .footer {
         text-align: center;
-        font-family: 'Poiret One', cursive;
+        font-family: 'Poiret One', arial;
         font-size: 12px;
     }
 
@@ -231,7 +231,7 @@ footer {
 
     .title {
         text-align: center;
-        font-family: 'Poiret One', cursive;
+        font-family: 'Poiret One', arial;
         font-size: 30px;
     }
 
@@ -241,7 +241,7 @@ footer {
     }
 
     .menu li {
-        font-family: 'Squada One', cursive;
+        font-family: 'Bebas Neue', arial;
         font-size: 18px;
         display: inline;
         margin: 2px;
