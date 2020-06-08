@@ -45,14 +45,45 @@
             <li class="no-current"><a class="no-current" href="">FILM</a></li>
         </ul>
     </div>
-
+    <!-- galeria escondida 1 -->
+    <div id="galeria-uno" class="galeria-universal">
+        <div class="container-gallery-1">
+            <img class="arrows exit" src="./icons/cancelar.png" onclick="closeWindow()" alt="">
+            <img class="arrows back" src="./icons/izquierdo.png" onclick="plusDivs(-1)" alt="">
+            <img class="arrows next" src="./icons/derecho.png" onclick="plusDivs(+1)" alt="">
+            <img class="mySlides images-universal" src="./media/Frames seleccionados/1ra fotO/2.jpg">
+            <p>AKASICA - PULSIÓN DE VIDA</p>
+            <p>Produced by: REVO Contenidos</p>
+            <p>2017</p>
+        </div>
+    </div>
+    <!-- end galeria escondida 1 -->
+    <!-- galeria escondida 2 -->
+    <div id="galeria-dos" class="galeria-universal">
+        <div class="container-gallery-2">
+            <img class="arrows exit" src="./icons/cancelar.png" onclick="closeWindowTwo()" alt="">
+            <img class="arrows back" src="./icons/izquierdo.png" onclick="plusDivsTwo(-1)" alt="">
+            <img class="arrows next" src="./icons/derecho.png" onclick="plusDivsTwo(+1)" alt="">
+            <img class="mySlidesTwo images-universal" src="./media/Frames seleccionados/2da foto/2.png">
+            <img class="mySlidesTwo images-universal" src="./media/Frames seleccionados/2da foto/3.png">
+            <p>EL GUION Y LA ESCENA FINAL</p>
+            <p>Produced by: TCyM</p>
+            <p>2019</p>
+        </div>
+    </div>
+    <!-- end galeria escondida 2 -->
+    <!--IMAGENES VISIBLES-->
     <section class="images-responsive">
         <div>
             <video class="video" controls>
                 <source src="./media/Reel.mp4" type="video/mp4">
             </video>
-            <img src="./media/Frames seleccionados/1ra foto/1.jpg" alt="">
-            <img src="./media/Frames seleccionados/2da foto/1.png" alt="">
+            <a onclick="myFunction()"  href="#">
+                <img src="./media/Frames seleccionados/1ra foto/1.jpg" alt="">
+            </a>
+            <a onclick="myFunctionTwo()"  href="#">
+                <img src="./media/Frames seleccionados/2da foto/1.png" alt="">
+            </a>
             <img src="./media/Frames seleccionados/3ra foto/1.png" alt="">
             <img src="./media/Frames seleccionados/4ta foto/1.jpeg" alt="">
             <img src="./media/Frames seleccionados/5ta Foto/1.png" alt="">
@@ -61,7 +92,7 @@
             <img src="./media/Frames seleccionados/8va foto/1.png" alt="">
         </div>
     </section>
-
+    <!--FIN IMAGENES VISIBLES-->
     <footer>
         <div class="footer">
             <ul class="social-footer">
@@ -72,6 +103,6 @@
             <p><b>GONZALO ANSALDO | Todos los derechos reservados © 2020</b></p>
         </div>
     </footer>
-
+    <script src="scripts.js"></script>
 </body>
 </html>

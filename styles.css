@@ -1,4 +1,9 @@
 /* HEADER */
+
+body {
+    padding: 0;
+    margin: 0;
+}
 .title {
     text-align: center;
     font-family: 'Poiret One', arial;
@@ -179,6 +184,106 @@ footer {
 .social-footer li img {
     width: 20px;
     height: 20px;
+}
+
+/* GALLERY */
+
+#galeria-uno {
+	display: none;
+}
+
+#galeria-dos {
+	display: none;
+}
+
+.galeria-universal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0px;
+	display: flex;
+	align-items: center;
+}
+
+.back {
+	top: 50%;
+	left: 3%;
+}
+
+.next {
+	top: 50%;
+	right: 3%;
+}
+
+.exit {
+	right: 3%;
+}
+
+.arrows {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+
+.arrows:hover {
+	cursor: pointer;
+	transition: 1s;
+	filter:invert(10%);
+}
+
+.container-gallery-1 {
+	display: block;
+	margin: auto;
+    width: 60%;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 10px 10px 0px 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.container-gallery-2 {
+	display: block;
+	margin: auto;
+    width: 80%;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 10px 10px 0px 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.images-universal {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+	.arrows {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media (max-width: 640px) {
+	.arrows {
+		width: 18px;
+		height: 18px;
+	}
+
+	.back {
+		top: 50%;
+		left: 2%;
+	}
+	
+	.next {
+		top: 50%;
+		right: 2%;
+	}
+	
+	.exit {
+		right: 2%;
+	}
 }
 
 /* RESPONSIVE */
