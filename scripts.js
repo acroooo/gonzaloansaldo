@@ -155,3 +155,34 @@ for (i = 0; i < x.length; i++) {
 x[slideIndex-1].style.display = "block";  
 }
 /* ----5---- */
+/* galeria 6 */
+function myFunctionSix() {
+    document.getElementById("galeria-seis").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowSix() {
+    document.getElementById("galeria-seis").style.display = "none";
+    document.getElementById("video").style.cssText  = "display: block;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+}
+
+var slideIndex = 1;
+showDivsSix(slideIndex);
+
+function plusDivsSix(n) {
+showDivsSix(slideIndex += n);
+}
+
+function showDivsSix(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesSix");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----6---- */

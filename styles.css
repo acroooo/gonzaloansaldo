@@ -208,6 +208,10 @@ footer {
 	display: none;
 }
 
+#galeria-seis {
+	display: none;
+}
+
 .galeria-universal {
 	width: 100%;
 	height: 100%;
@@ -288,6 +292,17 @@ footer {
 }
 
 .container-gallery-5 {
+	display: block;
+	margin: auto;
+    width: 80%;
+	background-color: black;
+	padding: 10px 10px 0px 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.container-gallery-6 {
 	display: block;
 	margin: auto;
     width: 80%;
@@ -462,6 +477,12 @@ footer {
     }
 
     .container-gallery-5 {
+        width: 90%;
+        background-color: white;
+        color: black;
+    }
+
+    .container-gallery-6 {
         width: 90%;
         background-color: white;
         color: black;
