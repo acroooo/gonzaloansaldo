@@ -492,8 +492,13 @@ footer {
         right: 6%;
     }
 
+    .pa {
+        margin: 5px 0;
+    }
+
     .first-p {
         margin-top: 30px;
+        margin-bottom: 5px;
     }
 
     .container-gallery-1 {
@@ -546,8 +551,8 @@ footer {
 
     .galeria-universal {
         background-color: rgba(0, 0, 0, 0.8)
+        
     }
-
 }
 
 
