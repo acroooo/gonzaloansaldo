@@ -124,3 +124,34 @@ for (i = 0; i < x.length; i++) {
 x[slideIndex-1].style.display = "block";  
 }
 /* ----4---- */
+/* galeria 5 */
+function myFunctionFive() {
+    document.getElementById("galeria-cinco").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowFive() {
+    document.getElementById("galeria-cinco").style.display = "none";
+    document.getElementById("video").style.cssText  = "display: block;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+}
+
+var slideIndex = 1;
+showDivsFive(slideIndex);
+
+function plusDivsFive(n) {
+showDivsFive(slideIndex += n);
+}
+
+function showDivsFive(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesFive");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----5---- */
