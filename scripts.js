@@ -186,3 +186,65 @@ for (i = 0; i < x.length; i++) {
 x[slideIndex-1].style.display = "block";  
 }
 /* ----6---- */
+/* galeria 7 */
+function myFunctionSeven() {
+    document.getElementById("galeria-siete").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowSeven() {
+    document.getElementById("galeria-siete").style.display = "none";
+    document.getElementById("video").style.cssText  = "display: block;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+}
+
+var slideIndex = 1;
+showDivsSeven(slideIndex);
+
+function plusDivsSeven(n) {
+showDivsSeven(slideIndex += n);
+}
+
+function showDivsSeven(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesSeven");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----7---- */
+/* galeria 8 */
+function myFunctionEight() {
+    document.getElementById("galeria-ocho").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowEight() {
+    document.getElementById("galeria-ocho").style.display = "none";
+    document.getElementById("video").style.cssText  = "display: block;";
+    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+}
+
+var slideIndex = 1;
+showDivsEight(slideIndex);
+
+function plusDivsEight(n) {
+showDivsEight(slideIndex += n);
+}
+
+function showDivsEight(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesEight");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----8---- */
