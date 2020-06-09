@@ -399,6 +399,13 @@ footer {
     .arrows {
         width: 35px;
         height: 35px;
+        filter: invert(100%);
+        opacity: 0.4;
+    }
+
+    .arrows:hover {
+        filter: invert(100%);
+        opacity: 0.6;
     }
 
     .back {
