@@ -311,9 +311,21 @@ footer {
         height: 15px;
     }
 
-    .arrows {
-		width: 30px;
-		height: 30px;
+    .back {
+        top: unset;
+		bottom: 5%;
+		left: 3%;
+	}
+	
+	.next {
+        top: unset;
+		bottom: 5%;
+		right: 3%;
+	}
+	
+	.exit {
+        right: 2%;
+        margin-top: 1px
     }
     
     .container-gallery-1 {
@@ -322,10 +334,6 @@ footer {
 
     .container-gallery-2 {
         width: 100%;
-    }
-
-    .exit {
-        margin-top: 2px;
     }
 
 }
@@ -375,18 +383,15 @@ footer {
         font-size: 12px;
     }
 
-	.arrows {
-		width: 18px;
-		height: 18px;
-	}
-
 	.back {
-		top: 50%;
+        top: unset;
+        bottom: 15%;
 		left: 3%;
 	}
 	
 	.next {
-		top: 50%;
+        top: unset;
+        bottom: 15%;
 		right: 3%;
 	}
 	
