@@ -226,7 +226,6 @@ footer {
 	background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0px;
-	align-items: center;
 }
 
 .back {
@@ -409,6 +408,14 @@ footer {
         height: 15px;
     }
 
+    .container-gallery-1 {
+        width: 80%;
+    }
+
+    .container-gallery-8 {
+        width: 75%;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -457,10 +464,10 @@ footer {
     }
 
     .arrows {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
         filter: invert(100%);
-        opacity: 0.4;
+        opacity: 0.6;
     }
 
     .arrows:hover {
@@ -470,16 +477,23 @@ footer {
 
     .back {
         top: unset;
-        bottom: 2%;   
+        left: 5%;
+        opacity: 0.9;
     }
 
     .next {
         top: unset;
-        bottom: 2%;
+        right: 5%;
+        opacity: 0.9;
     }
 
     .exit {
-        top: 2%
+        margin-top: 4px;
+        right: 6%;
+    }
+
+    .first-p {
+        margin-top: 30px;
     }
 
     .container-gallery-1 {
