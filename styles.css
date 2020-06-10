@@ -31,8 +31,10 @@ body {
     font-size: 18px;
 }
 
-.filters li a {
-    text-decoration: none;
+.filters li:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
 }
 
 .separator {

@@ -1,5 +1,69 @@
 /* FILTROS */
 
+function filterAll() {
+    document.getElementById("1").style.display = "unset";
+    document.getElementById("2").style.display = "unset";
+    document.getElementById("3").style.display = "unset";
+    document.getElementById("4").style.display = "unset";
+    document.getElementById("5").style.display = "unset";
+    document.getElementById("6").style.display = "unset";
+    document.getElementById("7").style.display = "unset";
+    document.getElementById("8").style.display = "unset";
+
+    document.getElementById("all").className = "current";
+    document.getElementById("commercial").className = "no-current";
+    document.getElementById("musicvideos").className = "no-current";
+    document.getElementById("film").className = "no-current";
+}
+
+function filterCommercial() {
+    document.getElementById("1").style.display = "none";
+    document.getElementById("2").style.display = "none";
+    document.getElementById("3").style.display = "none";
+    document.getElementById("4").style.display = "none";
+    document.getElementById("5").style.display = "unset";
+    document.getElementById("6").style.display = "none";
+    document.getElementById("7").style.display = "none";
+    document.getElementById("8").style.display = "none";
+
+    document.getElementById("all").className = "no-current";
+    document.getElementById("commercial").className = "current";
+    document.getElementById("musicvideos").className = "no-current";
+    document.getElementById("film").className = "no-current";
+}
+
+function filterMusicVideos() {
+    document.getElementById("1").style.display = "unset";
+    document.getElementById("2").style.display = "none";
+    document.getElementById("3").style.display = "none";
+    document.getElementById("4").style.display = "none";
+    document.getElementById("5").style.display = "none";
+    document.getElementById("6").style.display = "unset";
+    document.getElementById("7").style.display = "unset";
+    document.getElementById("8").style.display = "unset";
+
+    document.getElementById("all").className = "no-current";
+    document.getElementById("commercial").className = "no-current";
+    document.getElementById("musicvideos").className = "current";
+    document.getElementById("film").className = "no-current";
+}
+
+function filterFilm() {
+    document.getElementById("1").style.display = "none";
+    document.getElementById("2").style.display = "unset";
+    document.getElementById("3").style.display = "unset";
+    document.getElementById("4").style.display = "unset";
+    document.getElementById("5").style.display = "none";
+    document.getElementById("6").style.display = "none";
+    document.getElementById("7").style.display = "none";
+    document.getElementById("8").style.display = "none  ";
+
+    document.getElementById("all").className = "no-current";
+    document.getElementById("commercial").className = "no-current";
+    document.getElementById("musicvideos").className = "no-current";
+    document.getElementById("film").className = "current";
+}
+
 /* galeria 1 */
 function myFunction() {
     document.getElementById("galeria-uno").style.cssText  = "display: flex;";
