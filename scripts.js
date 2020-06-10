@@ -1,6 +1,7 @@
 /* FILTROS */
 
 function filterAll() {
+    document.getElementById("video").style.display = "block";
     document.getElementById("1").style.display = "unset";
     document.getElementById("2").style.display = "unset";
     document.getElementById("3").style.display = "unset";
@@ -17,6 +18,7 @@ function filterAll() {
 }
 
 function filterCommercial() {
+    document.getElementById("video").style.display = "none";
     document.getElementById("1").style.display = "none";
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
@@ -33,6 +35,7 @@ function filterCommercial() {
 }
 
 function filterMusicVideos() {
+    document.getElementById("video").style.display = "none";
     document.getElementById("1").style.display = "unset";
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
@@ -49,6 +52,7 @@ function filterMusicVideos() {
 }
 
 function filterFilm() {
+    document.getElementById("video").style.display = "none";
     document.getElementById("1").style.display = "none";
     document.getElementById("2").style.display = "unset";
     document.getElementById("3").style.display = "unset";
@@ -73,7 +77,6 @@ function myFunction() {
 
 function closeWindow() {
     document.getElementById("galeria-uno").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -104,7 +107,6 @@ function myFunctionTwo() {
 
 function closeWindowTwo() {
     document.getElementById("galeria-dos").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -135,7 +137,6 @@ function myFunctionThree() {
 
 function closeWindowThree() {
     document.getElementById("galeria-tres").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -166,7 +167,6 @@ function myFunctionFour() {
 
 function closeWindowFour() {
     document.getElementById("galeria-cuatro").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -197,7 +197,6 @@ function myFunctionFive() {
 
 function closeWindowFive() {
     document.getElementById("galeria-cinco").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -228,7 +227,6 @@ function myFunctionSix() {
 
 function closeWindowSix() {
     document.getElementById("galeria-seis").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -259,7 +257,6 @@ function myFunctionSeven() {
 
 function closeWindowSeven() {
     document.getElementById("galeria-siete").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
@@ -290,7 +287,6 @@ function myFunctionEight() {
 
 function closeWindowEight() {
     document.getElementById("galeria-ocho").style.display = "none";
-    document.getElementById("video").style.cssText  = "display: block;";
     document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
 }
 
