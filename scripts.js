@@ -15,6 +15,8 @@ function filterAll() {
     document.getElementById("commercial").className = "no-current";
     document.getElementById("musicvideos").className = "no-current";
     document.getElementById("film").className = "no-current";
+
+    document.getElementById("footer").className = "";
 }
 
 function filterCommercial() {
@@ -32,6 +34,8 @@ function filterCommercial() {
     document.getElementById("commercial").className = "current";
     document.getElementById("musicvideos").className = "no-current";
     document.getElementById("film").className = "no-current";
+
+    document.getElementById("footer").className = "footer-contact";
 }
 
 function filterMusicVideos() {
@@ -49,6 +53,8 @@ function filterMusicVideos() {
     document.getElementById("commercial").className = "no-current";
     document.getElementById("musicvideos").className = "current";
     document.getElementById("film").className = "no-current";
+
+    document.getElementById("footer").className = "";
 }
 
 function filterFilm() {
@@ -66,6 +72,8 @@ function filterFilm() {
     document.getElementById("commercial").className = "no-current";
     document.getElementById("musicvideos").className = "no-current";
     document.getElementById("film").className = "current";
+
+    document.getElementById("footer").className = "";
 }
 
 /* galeria 1 */
