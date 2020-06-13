@@ -2,14 +2,14 @@
 
 function filterAll() {
     document.getElementById("video").style.display = "block";
-    document.getElementById("1").style.display = "unset";
-    document.getElementById("2").style.display = "unset";
-    document.getElementById("3").style.display = "unset";
-    document.getElementById("4").style.display = "unset";
-    document.getElementById("5").style.display = "unset";
-    document.getElementById("6").style.display = "unset";
-    document.getElementById("7").style.display = "unset";
-    document.getElementById("8").style.display = "unset";
+    document.getElementById("1").style.display = "block";
+    document.getElementById("2").style.display = "block";
+    document.getElementById("3").style.display = "block";
+    document.getElementById("4").style.display = "block";
+    document.getElementById("5").style.display = "block";
+    document.getElementById("6").style.display = "block";
+    document.getElementById("7").style.display = "block";
+    document.getElementById("8").style.display = "block";
 
     document.getElementById("all").className = "current";
     document.getElementById("commercial").className = "no-current";
@@ -25,7 +25,7 @@ function filterCommercial() {
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
     document.getElementById("4").style.display = "none";
-    document.getElementById("5").style.display = "unset";
+    document.getElementById("5").style.display = "block";
     document.getElementById("6").style.display = "none";
     document.getElementById("7").style.display = "none";
     document.getElementById("8").style.display = "none";
@@ -40,14 +40,14 @@ function filterCommercial() {
 
 function filterMusicVideos() {
     document.getElementById("video").style.display = "none";
-    document.getElementById("1").style.display = "unset";
+    document.getElementById("1").style.display = "block";
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
     document.getElementById("4").style.display = "none";
     document.getElementById("5").style.display = "none";
-    document.getElementById("6").style.display = "unset";
-    document.getElementById("7").style.display = "unset";
-    document.getElementById("8").style.display = "unset";
+    document.getElementById("6").style.display = "block";
+    document.getElementById("7").style.display = "block";
+    document.getElementById("8").style.display = "block";
 
     document.getElementById("all").className = "no-current";
     document.getElementById("commercial").className = "no-current";
@@ -60,9 +60,9 @@ function filterMusicVideos() {
 function filterFilm() {
     document.getElementById("video").style.display = "none";
     document.getElementById("1").style.display = "none";
-    document.getElementById("2").style.display = "unset";
-    document.getElementById("3").style.display = "unset";
-    document.getElementById("4").style.display = "unset";
+    document.getElementById("2").style.display = "block";
+    document.getElementById("3").style.display = "block";
+    document.getElementById("4").style.display = "block";
     document.getElementById("5").style.display = "none";
     document.getElementById("6").style.display = "none";
     document.getElementById("7").style.display = "none";
@@ -80,12 +80,12 @@ function filterFilm() {
 function myFunction() {
     document.getElementById("galeria-uno").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindow() {
     document.getElementById("galeria-uno").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -110,12 +110,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionTwo() {
     document.getElementById("galeria-dos").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowTwo() {
     document.getElementById("galeria-dos").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -140,12 +140,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionThree() {
     document.getElementById("galeria-tres").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowThree() {
     document.getElementById("galeria-tres").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -170,12 +170,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionFour() {
     document.getElementById("galeria-cuatro").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowFour() {
     document.getElementById("galeria-cuatro").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -200,12 +200,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionFive() {
     document.getElementById("galeria-cinco").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowFive() {
     document.getElementById("galeria-cinco").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -230,12 +230,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionSix() {
     document.getElementById("galeria-seis").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowSix() {
     document.getElementById("galeria-seis").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -260,12 +260,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionSeven() {
     document.getElementById("galeria-siete").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowSeven() {
     document.getElementById("galeria-siete").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
@@ -290,12 +290,12 @@ x[slideIndex-1].style.display = "block";
 function myFunctionEight() {
     document.getElementById("galeria-ocho").style.cssText  = "display: flex;";
     document.getElementById("video").style.cssText  = "display: none;";
-    document.getElementById("first-image").style.cssText  = "margin-top: 50px;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
 }
 
 function closeWindowEight() {
     document.getElementById("galeria-ocho").style.display = "none";
-    document.getElementById("first-image").style.cssText  = "margin-top: 25px;";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
 }
 
 var slideIndex = 1;
