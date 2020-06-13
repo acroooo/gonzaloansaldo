@@ -119,6 +119,10 @@ body {
     margin-top: 25px;
 }
 
+.images-responsive img:hover {
+    cursor: pointer;
+}
+
 /* FOOTER */
 
 footer {
