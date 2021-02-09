@@ -3,6 +3,8 @@
 function filterAll() {
     document.getElementById("video").style.display = "block";
     document.getElementById("1").style.display = "block";
+    document.getElementById("22").style.display = "block";
+    document.getElementById("23").style.display = "block";
     document.getElementById("2").style.display = "block";
     document.getElementById("3").style.display = "block";
     document.getElementById("4").style.display = "block";
@@ -21,6 +23,8 @@ function filterAll() {
 
 function filterCommercial() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("22").style.display = "none";
+    document.getElementById("23").style.display = "none";
     document.getElementById("1").style.display = "none";
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
@@ -40,6 +44,8 @@ function filterCommercial() {
 
 function filterMusicVideos() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("22").style.display = "block";
+    document.getElementById("23").style.display = "block";
     document.getElementById("1").style.display = "block";
     document.getElementById("2").style.display = "none";
     document.getElementById("3").style.display = "none";
@@ -59,6 +65,8 @@ function filterMusicVideos() {
 
 function filterFilm() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("22").style.display = "none";
+    document.getElementById("23").style.display = "none";
     document.getElementById("1").style.display = "none";
     document.getElementById("2").style.display = "block";
     document.getElementById("3").style.display = "block";
@@ -75,6 +83,69 @@ function filterFilm() {
 
     document.getElementById("footer").className = "";
 }
+
+/* galeria 22 */
+function myFunctionMinusTwo() {
+    document.getElementById("galeria-menos-dos").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowMinusTwo() {
+    document.getElementById("galeria-menos-dos").style.display = "none";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
+}
+
+
+var slideIndex = 1;
+showDivsMinusTwo(slideIndex);
+
+function plusDivsMinusTwo(n) {
+showDivsMinusTwo(slideIndex += n);
+}
+
+function showDivsMinusTwo(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesMinusTwo");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----22---- */
+/* galeria 23 */
+function myFunctionMinusThree() {
+    document.getElementById("galeria-menos-tres").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowMinusThree() {
+    document.getElementById("galeria-menos-tres").style.display = "none";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
+}
+
+
+var slideIndex = 1;
+showDivsMinusThree(slideIndex);
+
+function plusDivsMinusThree(n) {
+showDivsMinusThree(slideIndex += n);
+}
+
+function showDivsMinusThree(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesMinusThree");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----23---- */
 
 /* galeria 1 */
 function myFunction() {
