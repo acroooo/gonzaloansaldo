@@ -40,8 +40,6 @@ function filterCommercial() {
     document.getElementById("commercial").className = "current";
     document.getElementById("musicvideos").className = "no-current";
     document.getElementById("film").className = "no-current";
-
-    document.getElementById("footer").className = "footer-contact";
 }
 
 function filterMusicVideos() {
