@@ -114,7 +114,7 @@ body {
 .images-responsive img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 100%;
     max-width: 960px;
     margin-top: 25px;
 }
@@ -193,6 +193,10 @@ footer {
 
 /* GALLERY */
 
+#galeria-menos-cuatro {
+	display: none;
+}
+
 #galeria-menos-dos {
 	display: none;
 }
@@ -239,6 +243,7 @@ footer {
 	background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0px;
+    z-index: 5;
 }
 
 .back {
@@ -265,6 +270,17 @@ footer {
 	cursor: pointer;
 	transition: 1s;
 	filter:invert(10%);
+}
+
+.container-gallery-menos-4 {
+	display: block;
+	margin: auto;
+    width: 50%;
+	background-color: black;
+	padding: 10px 10px 0px 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
 }
 
 .container-gallery-menos-2 {
@@ -393,6 +409,38 @@ footer {
     right: 2%;
 }
 
+/* OVERLAY */
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    max-width: 960px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay p {
+    text-align: center;
+    font-family: 'Bebas Neue', arial;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+
+}
+
+.container:hover .overlay {
+    opacity: 0.2;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 960px) {
@@ -404,9 +452,16 @@ footer {
     }
     
     .images-responsive img {
-        width: 70%;
+        width: 100%;
         max-width: 960px;
         margin-top: 25px;
+    }
+
+    .container {
+        position: relative;
+        margin: auto;
+        width: 70%;
+        max-width: 960px;
     }
 
     .title {
@@ -462,9 +517,16 @@ footer {
     }
     
     .images-responsive img {
-        width: 90%;
+        width: 100%;
         max-width: 960px;
         margin-top: 20px;
+    }
+
+    .container {
+        position: relative;
+        margin: auto;
+        width: 90%;
+        max-width: 960px;
     }
 
     .menu {
@@ -534,6 +596,12 @@ footer {
     .first-p {
         margin-top: 30px;
         margin-bottom: 5px;
+    }
+
+    .container-gallery-menos-4 {
+        width: 90%;
+        background-color: white;
+        color: black;
     }
 
     .container-gallery-menos-2 {
