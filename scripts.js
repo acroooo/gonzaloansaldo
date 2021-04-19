@@ -3,6 +3,7 @@
 function filterAll() {
     document.getElementById("video").style.display = "block";
     document.getElementById("1").style.display = "block";
+    document.getElementById("25").style.display = "block";
     document.getElementById("24").style.display = "block";
     document.getElementById("22").style.display = "block";
     document.getElementById("23").style.display = "block";
@@ -24,6 +25,7 @@ function filterAll() {
 
 function filterCommercial() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("25").style.display = "none";
     document.getElementById("24").style.display = "block";
     document.getElementById("22").style.display = "none";
     document.getElementById("23").style.display = "none";
@@ -44,6 +46,7 @@ function filterCommercial() {
 
 function filterMusicVideos() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("25").style.display = "block";
     document.getElementById("24").style.display = "none";
     document.getElementById("22").style.display = "block";
     document.getElementById("23").style.display = "block";
@@ -66,6 +69,7 @@ function filterMusicVideos() {
 
 function filterFilm() {
     document.getElementById("video").style.display = "none";
+    document.getElementById("25").style.display = "none";
     document.getElementById("24").style.display = "none";
     document.getElementById("22").style.display = "none";
     document.getElementById("23").style.display = "none";
@@ -85,6 +89,38 @@ function filterFilm() {
 
     document.getElementById("footer").className = "";
 }
+
+/* galeria 25 */
+function myFunctionMinusFive() {
+    document.getElementById("galeria-menos-cinco").style.cssText  = "display: flex;";
+    document.getElementById("video").style.cssText  = "display: none;";
+    document.getElementById("1").style.cssText  = "margin-top: 50px;";
+}
+
+function closeWindowMinusFive() {
+    document.getElementById("galeria-menos-cinco").style.display = "none";
+    document.getElementById("1").style.cssText  = "margin-top: 25px;";
+}
+
+
+var slideIndex = 1;
+showDivsMinusFive(slideIndex);
+
+function plusDivsMinusFive(n) {
+showDivsMinusFive(slideIndex += n);
+}
+
+function showDivsMinusFive(n) {
+var i;
+var x = document.getElementsByClassName("mySlidesMinusFive");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+/* ----25---- */
 
 /* galeria 24 */
 function myFunctionMinusFour() {
